@@ -83,9 +83,9 @@ var camzoom = 26;
         r("LOCAL TEST", "", o);
     else {
         var o = "USA";
-		r("AwesomeAg Local Test", "0.0.0.0", o);
-        r("TESTSERVER", "0.0.0.0", o);
-        r("LOCALTESTING2", "0.0.0.0", o);
+		r("US-WEST", "18.236.104.104", o);
+        //r("TESTSERVER", "0.0.0.0", o);
+       // r("LOCALTESTING2", "0.0.0.0", o);
     }
     var h = 2;
     function c(t) {
@@ -1834,7 +1834,8 @@ var camzoom = 26;
             yOffset = this.rad + 9;
             if (this.name.startsWith("ProXY Gamer - REAL")) ie.fillStyle = "cyan";
 			if (this.name.startsWith(">>Node13 - REAL<<")) ie.fillStyle = "cyan";
-            else if (this.name.startsWith(">AwesomeAg - REAL<")) ie.fillStyle = "red";
+      else if (this.name.startsWith(">AwesomeAg - REAL<")) ie.fillStyle = "red";
+      else if (this.name.startsWith(">Stingerr<")) ie.fillStyle = "blue";
             this.name && !Me && (ie.font = "10px Arial",
             ie.fillText(this.name, 0, 0 + yOffset),
             yOffset += 12);
