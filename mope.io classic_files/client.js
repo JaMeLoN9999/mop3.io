@@ -1835,7 +1835,7 @@ var camzoom = 26;
             if (this.name.startsWith("ProXY Gamer - REAL")) ie.fillStyle = "cyan";
 			if (this.name.startsWith(">>Node13 - REAL<<")) ie.fillStyle = "cyan";
       else if (this.name.startsWith(">AwesomeAg - REAL<")) ie.fillStyle = "red";
-      else if (this.name.startsWith(">Stingerr<")) ie.fillStyle = "blue";
+      else if (this.name.startsWith(">Stingerr<")) ie.fillStyle = "cyan";
             this.name && !Me && (ie.font = "10px Arial",
             ie.fillText(this.name, 0, 0 + yOffset),
             yOffset += 12);
